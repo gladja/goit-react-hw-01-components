@@ -14,7 +14,8 @@ export const Wrap = styled.div`
 
   &:hover {
     transform: scale(1.05);
-    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);  }
+    box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
+  }
 `;
 
 export const Description = styled.div`
@@ -38,3 +39,35 @@ export const Img = styled.img`
   border-radius: 50%;
 `;
 
+export const List = styled.ul`
+  padding: 0;
+  //gap: 30px;
+  width: 300px;
+  height: 100px;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 14px;
+  color: gray;
+  background: #ececec;
+  //box-sizing: border-box;
+  border-radius: 0 0 10px 10px;
+`
+export const Item = styled.li`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 26px;
+  border-right: 1px solid gray;
+
+  &:last-child {
+    border-right: 0;
+  }
+`
+export const Quantity = styled.span`
+  margin-top: 10px;
+  font-weight: bold;
+  color: black;
+`

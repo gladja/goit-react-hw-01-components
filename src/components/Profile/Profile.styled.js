@@ -41,7 +41,6 @@ export const Img = styled.img`
 
 export const List = styled.ul`
   padding: 0;
-  //gap: 30px;
   width: 300px;
   height: 100px;
   margin: 0;

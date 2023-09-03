@@ -32,12 +32,10 @@ background: ${props => props.color};
 `
 export const Img = styled.img`
   margin-left: 30px;
-
 `
 export const Name = styled.p`
 margin-left: 30px;
   font-size: 24px;
   font-weight: bold;
   color: gray;
-
 `

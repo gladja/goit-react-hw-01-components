@@ -27,7 +27,6 @@ export const Row = styled.tr`
   transition: all ease 0.2s;
 
   &:nth-child(2n) {
-    //background: lightgray;
     background: #ececec;
   }
 

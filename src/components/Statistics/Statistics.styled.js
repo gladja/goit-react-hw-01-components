@@ -15,10 +15,8 @@ export const Title = styled.h2`
 text-transform: uppercase;
   color: gray;
 `
-
 export const List = styled.ul`
   width: 500px;
-  //height: 100px;
   padding: 0;
   margin: 0;
   list-style: none;
@@ -27,7 +25,6 @@ export const List = styled.ul`
   justify-content: space-around;
   background: #ececec;
   border-radius: 0 0 10px 10px;
-
 `
 export const Item = styled.li`
   overflow: hidden;

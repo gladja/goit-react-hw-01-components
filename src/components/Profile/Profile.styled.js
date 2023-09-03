@@ -16,29 +16,24 @@ export const Wrap = styled.div`
     transform: scale(1.05);
     box-shadow: 0px 10px 20px 2px rgba(0, 0, 0, 0.25);
   }
-`;
-
+`
 export const Description = styled.div`
   padding: 20px;
   text-align: center;
 `
-
 export const Name = styled.p`
 font-size: 20px;
   font-weight: bold;
 `
-
 export const Text = styled.p`
   font-size: 16px;
   color: gray;
 `
-
 export const Img = styled.img`
   width: 150px;
   border: 1px solid lightgray;
   border-radius: 50%;
-`;
-
+`
 export const List = styled.ul`
   padding: 0;
   width: 300px;
@@ -51,7 +46,6 @@ export const List = styled.ul`
   font-size: 14px;
   color: gray;
   background: #ececec;
-  //box-sizing: border-box;
   border-radius: 0 0 10px 10px;
 `
 export const Item = styled.li`
